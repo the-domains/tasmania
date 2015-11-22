@@ -1,0 +1,13 @@
+layout_spectrum: 0.9110073
+typography_spectrum: 0.9345182
+color:
+  saturation: 0.8146894
+  lightness: 0.8509452
+  brandStrength: 0.7174432
+  brandColors:
+    - '#534B43'
+    - '#9A9188'
+    - '#E1E0DF'
+    - '#B4B5BC'
+  rhythmicContrast: 0.2572654
+name: Tasmania

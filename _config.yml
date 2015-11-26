@@ -1,13 +1,28 @@
-layout_spectrum: 0.9110073
-typography_spectrum: 0.9345182
-color:
-  saturation: 0.8146894
-  lightness: 0.8509452
-  brandStrength: 0.7174432
-  brandColors:
-    - '#534B43'
-    - '#9A9188'
-    - '#E1E0DF'
-    - '#B4B5BC'
-  rhythmicContrast: 0.2572654
 name: Tasmania
+favicon: null
+layout_spectrum: 0.70863
+typography_spectrum: 0.9345182
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#000201'
+    - '#fbffff'
+    - '#a7e3ff'
+    - '#76b1e9'
+    - '#4572ad'
+  brandStrength: 0.7174432
+  lightness: 0.5
+  saturation: 0.875
+  rhythmicContrast: 0.25
+purpose: []

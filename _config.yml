@@ -2,6 +2,7 @@ name: Tasmania
 favicon: null
 layout_spectrum: 0.70863
 typography_spectrum: 0.9345182
+title: Tasmania
 cta:
   domain: null
   bucket: null

@@ -2,14 +2,21 @@
     <channel>
         <title><![CDATA[Tasmania]]></title>
         <description><![CDATA[Tasmania]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://thegrid.ai/tasmania/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Sun, 22 Nov 2015 23:32:54 GMT</lastBuildDate>
-        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 26 Nov 2015 00:08:54 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/tasmania/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Hobart food notes]]></title>
+            <description><![CDATA[<article><h1>Hobart food notes</h1><p>You can't just recommend eateries on their own as they have a variety of better and worse products/dishes in my opinion so instead here are dishes to try from specific places:</p></article>]]></description>
+            <link>https://thegrid.ai/tasmania/hobart-food-notes/index.html</link>
+            <guid isPermaLink="false">9ee16258-3e85-407a-8c06-4dc45754c662</guid>
+            <pubDate>Thu, 26 Nov 2015 00:08:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Tassie Tasting Notes]]></title>
             <description><![CDATA[<article><h1>Tassie Tasting Notes</h1><p>Tassie tasting notes</p></article>]]></description>
-            <link>undefinedtassie-tasting-notes/index.html</link>
+            <link>https://thegrid.ai/tasmania/tassie-tasting-notes/index.html</link>
             <guid isPermaLink="false">228a3279-32bc-490d-89c2-edc7e60e40b3</guid>
             <pubDate>Sun, 22 Nov 2015 23:32:16 GMT</pubDate>
         </item>

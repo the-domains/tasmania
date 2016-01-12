@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Hobart food notes - Tasmania</title><link href="../rss.xml" title="Tasmania feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.20"><meta name="the-grid-solution" content="5f018e1a-ab47-480d-8bf6-3e2f3d2956cb"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Hobart food notes - Tasmania</title><link href="../rss.xml" title="Tasmania feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.22"><meta name="the-grid-solution" content="9d73e0ca-ae79-4e6c-bedc-473dfe4f1239"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -506,7 +506,7 @@ display: none;
 #page-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4#page-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4{width: 7.204rem;}
 #u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-mobile-l-one#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-mobile-l-one{position: relative;}
 #u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-mobile-l-one-l-one#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-mobile-l-one-l-one{position: relative; display: block; width: 7.204rem; height: 0.594rem; top: 0rem; left: 0rem;}
-#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav{position: fixed; z-index: 100; font-size: 0.164rem; line-height: 0.204rem; height: 0.594rem; width: 7.204rem; top: 0rem; left: 0rem;}
+#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav{position: fixed; z-index: 100; font-size: 0.164rem; line-height: 0.204rem; height: 0.584rem; width: 7.204rem; top: 0rem; left: 0rem;}
 #u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav#u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav:before{}
 #u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav >.group.listing >.data.list li { display: block; margin: auto; }
 #u-b09299d9-3cf0-4c07-93ec-31fcc3d47bd4-nav >.group.heading { text-align: center; }
@@ -1496,7 +1496,6 @@ document.body.addEventListener('mousemove', function(e) {
           colors[1] = colors[1].replace('rgb', 'rgba').replace(/\)/, ', 0.7)');
         }
         value = 'radial-gradient(circle at ' + clientX + 'px ' + clientY + 'px, rgba(255,255,255,0.5) -10%, ' + colors[1] + ' 25%, ' + colors[0] + ' 90%)';
-        console.log(value);
       } else {
         return;
       }
@@ -1911,7 +1910,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.7/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
